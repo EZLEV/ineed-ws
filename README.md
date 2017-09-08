@@ -25,3 +25,6 @@ Run this command to run the test suite
 
 That's it! Now go build something cool.
 # ineed-ws
+Usando PHP CLI 
+	php -S localhost:8081 -t public
+O caminho (POST) "https://localhost:8081/ws/0/optmize" está setado em um atributo da Classe ProductsService (no projeto WEB)

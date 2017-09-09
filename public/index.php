@@ -65,7 +65,7 @@ $app->post('/ws/0/optmize', function (Request $request, Response $response) {
     chmod($optimizedFile, 0777);
     unlink($optimizedFile);
 
-    return $response->write("{data:image/jpeg;base64," . $b64image ."}");
+    return $response->write("data:image/jpeg;base64," . $b64image);
 });
 
 // Run app

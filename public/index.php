@@ -36,7 +36,6 @@ $app->add(function ($req, $res, $next) {
 
 use Slim\Http\Request;
 use Slim\Http\Response;
-#use Slim\Http\UploadedFile;
 
 $app->post('/ws/0/optmize', function (Request $request, Response $response) {
     \Tinify\setKey("2rFPiSylwP8pZUe17DMUdw_GnQ9KWtDk");

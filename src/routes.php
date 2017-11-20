@@ -3,7 +3,6 @@
 
 use Slim\Http\Request;
 use Slim\Http\Response;
-use Firebase\JWT\JWT;
 
 $app->get('/[{name}]', function ($request, $response, $args) {
     // Sample log message

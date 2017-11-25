@@ -4,14 +4,6 @@
 use Slim\Http\Request;
 use Slim\Http\Response;
 
-$app->get('/[{name}]', function ($request, $response, $args) {
-    // Sample log message
-    $this->logger->info("Slim-Skeleton '/' route");
-
-    // Render index view
-    return $this->renderer->render($response, 'index.phtml', $args);
-});
-
 $app->post('/ws/0/optmize', function (Request $request, Response $response) {
     \Tinify\setKey("2rFPiSylwP8pZUe17DMUdw_GnQ9KWtDk");
     $id = rand(); 
